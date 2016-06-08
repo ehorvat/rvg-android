@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/erichorvat/AndroidStudioProjects/RVG/app/libs/SlidingMenu/assets"/></dataSet><dataSet config="release"><source path="/Users/erichorvat/AndroidStudioProjects/RVG/app/libs/SlidingMenu/src/release/assets"/></dataSet></merger>

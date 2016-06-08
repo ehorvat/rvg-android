@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.erichorvat.rvgnet"
+    android:versionCode="2"
+    android:versionName="2.0">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="com.erichorvat.rvgnet.util.RvgApp"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Sherlock.Light"
+        android:largeHeap="true"
+        >
+
+        <activity
+            android:name=".activities.LoginActivity_"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden|adjustNothing"
+            android:isScrollContainer="false"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".activities.RegisterActivity_"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden|adjustNothing"
+            android:isScrollContainer="false"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".activities.HomeActivity_"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden|adjustNothing"
+            android:isScrollContainer="false"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activities.ForumActivity_"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance"
+            android:windowSoftInputMode="stateHidden|adjustNothing"
+            android:isScrollContainer="false"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activities.AskQuestionActivity_"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden|adjustNothing"
+            android:isScrollContainer="false"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activities.AnswerActivity_"
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            android:isScrollContainer="false"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+
+    </application>
+
+</manifest>

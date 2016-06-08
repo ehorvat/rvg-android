@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Recycle Video Games</string>
+    <string name="store_label">Stores</string>
+    <string name="system_label">Platforms</string>
+    <string name="icon_gamepad">&#xf11b;</string>
+    <string name="icon_building">&#xf1ad;</string>
+    <string name="icon_recycle">&#xf1b8;</string>
+    <string name="icon_edit">&#xf044;</string>
+    <string name="icon_comments">&#xf086;</string>
+
+</resources>

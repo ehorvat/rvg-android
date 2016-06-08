@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="horizontal" android:weightSum="2" android:padding="8dp">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+
+        <ImageView
+            android:id="@+id/ivGameImage"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_centerInParent="true"/>
+
+
+        </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:paddingLeft="8dp"
+
+        >
+
+        <TextView
+            android:id="@+id/tvGameTitle"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:textSize="16dp"
+            android:layout_marginTop="7dp"
+            />
+
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/tvGameTitle"
+            android:layout_alignParentLeft="true"
+            android:textSize="14dp"
+            android:layout_marginTop="7dp"
+
+
+            />
+
+        <TextView
+            android:id="@+id/tvTradeAmt"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/tvPrice"
+            android:layout_alignParentLeft="true"
+            android:textSize="14dp"
+            android:layout_marginTop="7dp"
+
+
+            />
+
+        <TextView
+            android:id="@+id/tvPlatform"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/tvTradeAmt"
+            android:layout_alignParentLeft="true"
+            android:textSize="15dp"
+            android:layout_marginTop="7dp"
+
+
+            />
+
+        </RelativeLayout>
+
+</LinearLayout>

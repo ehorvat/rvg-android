@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/llQuestionFields"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:padding="5dp"
+
+        >
+
+        <TextView
+            android:id="@+id/tvTstamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blue01"
+            android:textSize="21dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/tvTstamp"/>
+
+        <TextView
+            android:id="@+id/tvBody"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="16dp"
+            android:layout_below="@id/tvTitle"
+            android:layout_marginBottom="7dp"
+            />
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/llAnswerFields"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        >
+
+        <EditText
+            android:id="@+id/etAnswer"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:hint="Post an Answer"
+            android:background="@drawable/custom_search"/>
+
+        <Button
+            android:id="@+id/bPost"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Answer"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/pressed_button"/>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/vLine"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@color/blue01"
+        android:layout_below="@id/llQuestionFields"
+       />
+
+
+    <ListView
+        android:id="@+id/lvAnswers"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_above="@id/llAnswerFields"
+        android:layout_below="@id/vLine"
+        android:cacheColorHint="@android:color/transparent"
+        android:dividerHeight="1dp"
+        android:footerDividersEnabled="true"
+        android:headerDividersEnabled="true"
+        android:listSelector="@android:color/transparent" />
+
+
+</RelativeLayout>

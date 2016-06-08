@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/login"
+        android:showAsAction="always"
+        android:title="Login"
+
+
+        />
+
+
+
+    <item android:id="@+id/ask"
+        android:showAsAction="always"
+        android:title="@string/icon_edit"
+        android:visible="true"
+        android:actionViewClass="android.widget.TextView"/>
+
+
+    <item android:id="@+id/back"
+        android:showAsAction="always"
+        android:title="@string/icon_back"
+        android:visible="true"
+        android:actionViewClass="android.widget.TextView"/>
+
+</menu>

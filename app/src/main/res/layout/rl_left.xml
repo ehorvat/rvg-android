@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="wrap_content"
+    android:background="@color/lv_background_color">
+
+
+    <TextView
+        android:id="@+id/tvStoreLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="6dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:text="@string/store_label"
+        />
+
+    <TextView
+        android:id="@+id/tvStores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/white"
+        android:text="@string/icon_building"
+        android:textSize="28dp"
+        />
+    <ListView
+        android:id="@+id/lvStores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="@android:color/transparent"
+        android:dividerHeight="1dp"
+        android:footerDividersEnabled="true"
+        android:headerDividersEnabled="true"
+        android:layout_below="@id/tvStoreLabel"
+        />
+
+</RelativeLayout>

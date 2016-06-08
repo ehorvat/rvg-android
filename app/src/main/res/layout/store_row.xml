@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:padding="5dp" android:background="@color/blue01">
+
+
+    <TextView
+        android:id="@+id/tvStoreName"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_margin="1dp"
+        />
+
+    <TextView
+        android:id="@+id/tvAddress"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:layout_below="@id/tvStoreName"
+        android:layout_margin="1dp"
+
+        />
+
+    <TextView
+        android:id="@+id/tvPhone"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:layout_below="@id/tvAddress"
+        android:layout_margin="1dp"
+        android:autoLink="phone"
+        android:textColorLink="@color/white"
+
+
+        />
+
+</RelativeLayout>

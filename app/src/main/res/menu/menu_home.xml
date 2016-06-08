@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".LoginActivity_">
+
+    <item android:id="@+id/mSignUp"
+        android:showAsAction="withText"
+        android:title="doodoo"
+
+       />
+
+
+
+    <item android:id="@+id/mSignIn"
+        android:showAsAction="withText"
+        android:title="butter" />
+
+
+</menu>

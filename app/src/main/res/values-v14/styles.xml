@@ -1,0 +1,24 @@
+<resources>
+
+
+    <style name="Theme.ExpressJobs" parent="Theme.Sherlock.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/Widget.Styled.ActionBar</item>
+        <item name="android:actionBarStyle">@style/Widget.Styled.ActionBar</item>
+    </style>
+    <style name="Widget.Styled.ActionBar" parent="Widget.Sherlock.Light.ActionBar.Solid.Inverse">
+
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.Sherlock">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="MyCustomTheme" parent="Theme.Sherlock">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <style name="MyActionBar" parent="Theme.Sherlock">
+    </style>
+
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Recycle Video Games</string>
+    <string name="store_label">Stores</string>
+    <string name="submit">Submit</string>
+    <string name="system_label">Platforms</string>
+    <string name="username_hint">username</string>
+    <string name="password_hint">password</string>
+    <string name="title_hint">Title. Be Specific.</string>
+    <string name="body_hint">Body</string>
+    <string name="password_conf">confirm password</string>
+    <string name="recover_pw">forgot password?</string>
+    <string name="register_title">Make an account</string>
+    <string name="btn_sign_up">sign up</string>
+    <string name="icon_gamepad">&#xf11b;</string>
+    <string name="icon_building">&#xf1ad;</string>
+    <string name="icon_recycle">&#xf1b8;</string>
+    <string name="icon_cash">&#xf0d6;</string>
+    <string name="icon_trade">&#xf07e;</string>
+    <string name="icon_arrow_left">&#xf060;</string>
+    <string name="icon_arrow_right">&#xf061;</string>
+    <string name="icon_search">&#xf002;</string>
+    <string name="icon_group"></string>
+    <string name="icon_check"></string>
+    <string name="icon_x"></string>
+    <string name="icon_back">&#xf060;</string>
+    <string name="icon_plus">&#xf067;</string>
+    <string name="icon_circle">&#xf111;</string>
+    <string name="icon_question">&#xf128;</string>
+    <string name="icon_edit">&#xf044;</string>
+    <string name="icon_comments">&#xf086;</string>
+    <string name="icon_paper_pane">&#xf1d8;</string>
+
+        <string-array name="platform_array">
+            <item>Select a platform...</item>
+            <item>Playstation 2</item>
+            <item>Playstation 3</item>
+            <item>Playstation 4</item>
+            <item>Xbox</item>
+            <item>Xbox 360</item>
+            <item>Xbox One</item>
+            <item>Gamecube</item>
+            <item>Nintendo DS</item>
+            <item>Nintendo 3DS</item>
+            <item>Nintendo Wii</item>
+            <item>Nintendo Wii U</item>
+            <item>Sony PSP</item>
+            <item>Gameboy</item>
+            <item>Gameboy Color</item>
+            <item>Gamegear</item>
+            <item>Genesis</item>
+            <item>Nintendo</item>
+            <item>Nintendo 64</item>
+            <item>Playstation</item>
+            <item>Super Nintendo</item>
+        </string-array>
+
+</resources>

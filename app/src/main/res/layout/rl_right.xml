@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="wrap_content" android:background="@color/lv_background_color">
+
+    <TextView
+        android:id="@+id/tvPlatformLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:layout_margin="11dp"
+        android:textSize="25sp"
+        android:text="@string/system_label"
+        android:textColor="@color/white"
+        />
+
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/icon_comments"
+        android:textColor="@color/white"
+        android:textSize="28dp"
+        />
+
+    <ListView
+        android:id="@+id/lvPlatforms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="@android:color/transparent"
+        android:footerDividersEnabled="true"
+        android:headerDividersEnabled="true"
+        android:background="@drawable/pressed_platform"
+        android:layout_below="@id/tvPlatformLabel"
+        />
+
+</RelativeLayout>

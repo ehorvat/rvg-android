@@ -1,0 +1,126 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context=".HomeActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/titled"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:background="@color/blue01"
+        android:padding="5dp"
+        android:gravity="center"
+        >
+
+
+        <TextView
+            android:id="@+id/tvSearch"
+            android:text="@string/icon_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_margin="10dp"
+            />
+
+        <EditText
+            android:id="@+id/etSearchBox"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/custom_search"
+            android:padding="10dp"
+            android:textSize="15dp"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+
+            />
+
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/llButtons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/blue01"
+       >
+
+
+        <Button
+            android:id="@+id/prev"
+            android:text="@string/icon_arrow_left"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:background="@drawable/pressed_button"
+
+            />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:background="@color/blue01"
+            android:padding="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"/>
+
+
+        <Button
+            android:id="@+id/next"
+            android:text="@string/icon_arrow_right"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pressed_button"
+
+            />
+
+        </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/tvRecycleIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@color/emerald"
+        android:visibility="gone"
+        android:text="@string/icon_recycle"
+        android:textSize="50dp"
+        />
+
+
+
+    <ListView
+        android:id="@+id/lvGames"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:listSelector="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        android:dividerHeight="1dp"
+        android:footerDividersEnabled="true"
+        android:headerDividersEnabled="true"
+        android:layout_below="@id/titled"
+        android:layout_above="@id/llButtons"
+        android:smoothScrollbar="true"
+        android:scrollingCache="false"
+        android:animationCache="false"
+        />
+
+
+</RelativeLayout>
